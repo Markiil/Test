@@ -74,6 +74,27 @@ div.ex2{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+.button3 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #a51919;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #660000;
+}
+.button3:hover {background-color: #8e3e3e}
+
+.button3:active {
+  background-color: #8e3e3e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 div.center {
   position: absolute;
   top: 40%;
@@ -87,4 +108,15 @@ div.center2 {
   width: 100%;
   text-align: center;
   font-size: 18px;
+}
+.box {
+  background-color: Red;
+  width: 1520px;
+  Height: 76px;
+  margin: -9px;
+  
+}
+.box {
+    display: flex; /* This sets up a flex container for the buttons */
+    gap: 10px; /* This adds a gap of 10px between the buttons */
 }
