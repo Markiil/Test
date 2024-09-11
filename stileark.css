@@ -131,14 +131,15 @@ ul {list-style-type: square;
   padding-left: 20px;
 }
 .grid-container2 {
-  grid-template-columns: 1fr;
-  background-color: violet;
-grid-column: span 1;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
 .section1, .section2, .section3 {
   background-color: white;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 0 2px 5px rgba(252, 249, 249, 0.1);
 }
 .section4 {
