@@ -21,13 +21,12 @@ div.ex2{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 30px;
+  padding: 0px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 30px;
+  padding: 0px;
   font-size: 30px;
   text-align: center;
 }
@@ -127,4 +126,26 @@ div.center2 {
 .box {
     display: flex; /* This sets up a flex container for the buttons */
     gap: 10px; /* This adds a gap of 10px between the buttons */
+}
+ul {list-style-type: square;
+  padding-left: 20px;
+}
+.grid-container2 {
+  grid-template-columns: 1fr;
+  background-color: violet;
+grid-column: span 1;
+}
+.section1, .section2, .section3 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(252, 249, 249, 0.1);
+}
+.section4 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(252, 249, 249, 0.1);
+  grid-column: span 3;
+  text-align: center;
 }
